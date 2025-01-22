@@ -91,7 +91,7 @@ async def to_code(config):
             options=[
                 "Normal",
                 "Engineering",
-                "Dynamic background correction",
+                "Auto Calibration",
             ],
         )
         await cg.register_parented(s, config[CONF_LD2412_ID])
